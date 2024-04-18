@@ -89,7 +89,7 @@
 }
 
 #about {
-  background-color: rgba(186, 218, 255, 0.24);
+  background-color: rgb(198, 215, 222);
   padding-bottom: 150px;
   padding-top: 10px;
 }
@@ -122,9 +122,9 @@
 }
 
 .content4 {
-  padding-left: 300px;
+  padding-left: 100px;
   padding-right: 180px;
-  width: 500px;
+  width: 900px;
 }
 
 .judulServices {
@@ -221,7 +221,7 @@
 }
 
 #contack {
-  background-color: rgba(186, 218, 255, 0.24);
+  background-color: rgb(198, 215, 222);
 }
 
 .contack-judul {
@@ -240,13 +240,13 @@
 .contack-content {
   display: flex;
   justify-content: center;
-  gap: 10%;
-  padding-bottom: 100px;
+  gap: 5%;
+  padding-bottom: 130px;
 }
 
 .contack-content-satu {
-  width: 300px;
-  height: 330px;
+  width: 250px;
+  height: 350px;
   background-color: rgba(49, 49, 125, 0.943);
   border-radius: 20px;
   box-shadow: 0 5px 5px 3px rgb(0, 0, 0, 0.5);
@@ -255,21 +255,21 @@
 .contack-content-satu img {
   width: 100px;
   height: 100px;
-  margin-left: 85px;
+  margin-left: 65px;
   padding: 15px;
   border-radius: 100%;
 }
 
 .contack-satu-nama {
   background-color: rgb(255, 255, 255);
-  height: 160px;
+  height: 180px;
   padding: 20px;
   border-radius: 15px 0 15px 15px;
 }
 
 .contack-content-dua {
-  width: 300px;
-  height: 330px;
+  width: 250px;
+  height: 350px;
   background-color: rgba(49, 49, 125, 0.943);
   border-radius: 20px;
   box-shadow: 0 5px 5px 3px rgb(0, 0, 0, 0.5);
@@ -278,21 +278,21 @@
 .contack-content-dua img {
   width: 100px;
   height: 100px;
-  margin-left: 85px;
+  margin-left: 65px;
   padding: 15px;
   border-radius: 100%;
 }
 
 .contack-dua-nama {
   background-color: rgb(255, 255, 255);
-  height: 160px;
+  height: 180px;
   padding: 20px;
   border-radius: 15px 0 15px 15px;
 }
 
 .contack-content-tiga {
-  width: 300px;
-  height: 330px;
+  width: 250px;
+  height: 350px;
   background-color: rgba(49, 49, 125, 0.943);
   border-radius: 20px;
   box-shadow: 0 5px 5px 3px rgb(0, 0, 0, 0.5);
@@ -301,21 +301,21 @@
 .contack-content-tiga img {
   width: 100px;
   height: 100px;
-  margin-left: 85px;
+  margin-left: 65px;
   padding: 15px;
   border-radius: 100%;
 }
 
 .contack-tiga-nama {
   background-color: rgb(255, 255, 255);
-  height: 160px;
+  height: 180px;
   padding: 20px;
   border-radius: 15px 0 15px 15px;
 }
 
 footer {
-  background-color: rgba(9, 32, 231, 0.6);
-  height: 200px;
+  background-color: rgba(49, 49, 125, 0.943);
+  height: 250px;
   padding: 20px;
 }
 
@@ -339,6 +339,11 @@ footer h3 {
 footer p {
   text-align: center;
   background-color: rgba(62, 62, 163, 0);
+  height: 25px;
+  background-color: rgb(53, 46, 101);
+  position: relative;
+  top: 50px;
+  border-radius: 15px;
 }
 
 footer a {
@@ -354,4 +359,18 @@ footer a {
 
 footer h1 {
   color: rgb(230, 231, 236);
+}
+.back-to-top {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: aliceblue;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50px;
+}
+
+.back-to-top img {
+  width: 30px;
+  padding: 10px;
 }
